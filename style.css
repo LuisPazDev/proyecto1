@@ -1,6 +1,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    color: white;
 }
 body{
     background-color: black;
@@ -35,7 +36,7 @@ span{
 }
 .nav-text-enlaces{
     color: white;
-    padding: 0 45px;
+    padding: 0 40px;
     text-decoration: none;
     font-size: 20px;
     font-weight: 600;
@@ -43,7 +44,24 @@ span{
 
 .but{
     background-color: black;
-    padding: 10px;
+    padding: 5px;
     border: 2px solid #43bac9;
     border-radius: 25px;
+}
+
+main{
+    padding: 0 50px;
+}
+.sec1{
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec1-box1{
+
+}
+.sec1-foto {
+    height: 650px;
 }
