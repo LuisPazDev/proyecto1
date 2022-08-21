@@ -110,6 +110,9 @@ main{
     align-items: center;
     justify-content: center;
 }
+.sec1-text-enlace{
+    text-decoration: none;
+}
 
 /* ANCHOR sec 2 */
 .sec2{
@@ -120,8 +123,7 @@ main{
     align-items: center;
 }
 .sec2-box1{
-    height: 200px;
-    margin-top: 20px;
+    height: 180px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -130,7 +132,7 @@ main{
 .sec2-but1{
     margin-left: 15px;
     background-color: black;
-    margin-top: 25px;
+    margin-top: 20px;
     padding: 5px 25px;
     border: 3px solid #43bac9;
     border-radius: 25px;
@@ -139,7 +141,7 @@ main{
 }
 .sec2-box2{
     width: 100%;
-    height: 600px;
+    height: 500px;
     padding: 5px;
     display: flex;
     align-items: center;
@@ -226,7 +228,7 @@ main{
 }
 .sec3-but{
     margin-top: 50px;
-    margin-left: 70px;
+    margin-left: 100px;
     background-color: black;
     padding: 15px 50px;
     border: 2px solid #43bac9;
@@ -240,7 +242,7 @@ footer{
     justify-content: space-evenly;
 }
 .footer-redes{
-    padding: 0 130px;
+    padding: 0 90px;
     border-left:2px solid #43bac9;
     display: flex;
     flex-direction: column;
@@ -254,12 +256,23 @@ footer{
 }
 .footer-box2{
     display: flex;
+    padding: 5px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 .footer-text{
+    color: #6de5f5;
+    padding: 5px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.footer-boxredes{
+    padding-left: 80px;
+}
+.footer-text2{
+    padding-left: 80px;
     color: #6de5f5;
     font-size: 18px;
     margin-bottom: 10px;
