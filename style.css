@@ -1,11 +1,11 @@
 * {
     margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
     box-sizing: border-box;
     color: white;
 }
 body{
     background-color: black;
-    font-family: 'Bai Jamjuree', sans-serif;
 }
 header {
     height: 250px;
